@@ -8,18 +8,21 @@
 ## Instalando o Servidor Web
 
 Inicie o instalador
+
 ```
 xampp-windows-x64-7.3.31-3-VC15-installer.exe
 ```
 
 Na parte dos componentes
 <img src="XampInstallComponentes.png" />
+
 ```
 Desmarque todos os componentes opcioncionais, onde será instalado apenas os Apache com PHP
 ```
 
 Definindo o local da Instalação
 <img src="XampInstallLocal.png" />
+
 ```
 C:\ServiceNow\ServidorWeb
 ```
@@ -50,11 +53,17 @@ Salve e feche o arquivo
 Abra o CMD.exe como administrador 
 <img src="OpenCMD.png" />
 
-
 Execute os seguites comandos.
+
 ```
 cd "C:\ServiceNow\ServidorWeb\apache\bin"
 httpd.exe -k install -n "ServiceNow Apache API"
 ```
 
 <img src="AddServices.png" />
+
+Certifique que esteja para inicializar automaticamente e enicie o serviço
+
+<img src="StartService.png" />
+
+Seu servidor Web com driver do mongo foi instalado com sucesso.
