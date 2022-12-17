@@ -14,6 +14,7 @@ xampp-windows-x64-7.3.31-3-VC15-installer.exe
 ```
 
 Na parte dos componentes
+
 <img src="XampInstallComponentes.png" />
 
 ```
@@ -21,6 +22,7 @@ Desmarque todos os componentes opcioncionais, onde será instalado apenas os Apa
 ```
 
 Definindo o local da Instalação
+
 <img src="XampInstallLocal.png" />
 
 ```
@@ -28,6 +30,8 @@ C:\ServiceNow\ServidorWeb
 ```
 
 Siga a instalação padrão até finalizar e não inicialize o serviço 
+
+
 
 ## Configurando o driver do MongoDB
 
@@ -50,7 +54,8 @@ Salve e feche o arquivo
 
 ## Configurando o servidor Web Como Serviço
 
-Abra o CMD.exe como administrador 
+Abra o CMD.exe como administrador
+
 <img src="OpenCMD.png" />
 
 Execute os seguites comandos.
